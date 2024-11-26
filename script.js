@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (username === "user" && password === "pass") {
         alert("Login successful!");
         
-        window.location.href = "dashboard.html"; 
+        window.location.href = "index.html";
       } else {
         alert("Incorrect username or password.");
       }
